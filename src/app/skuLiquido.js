@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const sql = require('mssql')
-const connection = require('./src/config/client')
+const connection = require('../config/client')
 let idSkuOrigem
 
 app.listen(port);
@@ -21,8 +21,9 @@ sql.connect(connection, function(err) {
     let idSku = data.recordset;
 
     idSkuOrigem = idSku.map(e => e.IdSkuOrigem)
-    console.log(idSkuOrigem)
+    console.log(idSkuOrigem[0])
     sql.close();
   })
+  
   return idSkuOrigem;
 })
