@@ -1,0 +1,21 @@
+{
+  "name": "connection-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "skuLeve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "leve": "nodemon skuLeve.js",
+    "liquido": "nodemon skuLiquido.js",
+    "pesado": "nodemon skuPesado.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.2",
+    "mssql": "^6.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
