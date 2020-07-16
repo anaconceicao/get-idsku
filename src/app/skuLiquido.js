@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const sql = require('mssql')
-const connection = require('./client')
+const connection = require('./src/config/client')
 let idSkuOrigem
 
 app.listen(port);

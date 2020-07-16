@@ -5,9 +5,9 @@
   "main": "skuLeve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "leve": "nodemon skuLeve.js",
-    "liquido": "nodemon skuLiquido.js",
-    "pesado": "nodemon skuPesado.js"
+    "leve": "nodemon src/app/skuLeve.js",
+    "liquido": "nodemon src/app/skuLiquido.js",
+    "pesado": "nodemon src/app/skuPesado.js"
   },
   "keywords": [],
   "author": "",

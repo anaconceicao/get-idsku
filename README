@@ -1,0 +1,8 @@
+Para pegar sku leve aleatório:
+npm run leve
+
+Para pegar sku pesado aleatório:
+npm run pesado
+
+Para pegar sku liquido aleatório:
+npm run liquido
