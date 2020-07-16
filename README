@@ -1,3 +1,6 @@
+> clonar repositório
+> npm install / npm i para instalar as dependências (apenas primeiro acesso após baixar o repositório)
+
 Para pegar sku leve aleatório:
 npm run leve
 
