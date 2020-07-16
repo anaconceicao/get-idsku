@@ -27,3 +27,6 @@ sql.connect(connection, function(err) {
   return idSkuOrigem;
 })
 
+app.get('/', (res, req) => {
+  req.json(idSkuOrigem)
+})
