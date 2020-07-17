@@ -20,8 +20,9 @@ sql.connect(connection, function(err) {
 
     let idSku = data.recordset;
 
-    idSkuOrigem = idSku.map(e => e.IdSkuOrigem)
+    idSkuOrigem = JSON.parse(idSku.map(e => e.IdSkuOrigem))
     console.log(idSkuOrigem)
+    
     sql.close();
   })
   return idSkuOrigem;
