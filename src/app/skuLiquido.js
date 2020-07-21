@@ -24,8 +24,6 @@ app.get('/', (req, res) => {
 
     idSkuOrigem = JSON.parse(idSku.map(e => e.IdSkuOrigem))
     console.log(idSkuOrigem)
-
-    sql.close();
     return res.json(idSkuOrigem)
   })
 })
